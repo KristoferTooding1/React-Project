@@ -1,11 +1,14 @@
-import './App.css'
+import './App.css';
+import MovieCard from "./components/MovieCard";
 
 function App() {
   return (
-<div>
-  <p>Hello World!</p>
-</div>
-  )
+  <>
+  <MovieCard movie={{title: "The Shawshank Redemption", release_date: "1994-09-23"}} />
+  </>
+
+  );
 }
+
 
 export default App
