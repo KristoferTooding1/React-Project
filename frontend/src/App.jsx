@@ -1,10 +1,11 @@
 import './App.css';
-import MovieCard from "./components/MovieCard";
+import Home from './pages/Home';
 
 function App() {
+  const movieNumber = 1;
   return (
   <>
-  <MovieCard movie={{title: "The Shawshank Redemption", release_date: "1994-09-23"}} />
+    <Home />
   </>
 
   );
